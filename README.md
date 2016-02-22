@@ -1,39 +1,50 @@
-# Ez::Rsponsive::Table
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ez/rsponsive/table`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+# ezResponsiveTable
+If you need a EASY way to **Responsive** your table.
+You can give **ezRtable** a shot :gun:
 
 ## Installation
 
-Add this line to your application's Gemfile:
+#### 1. Add this line to your application's Gemfile:
 
 ```ruby
 gem 'ez-rsponsive-table'
 ```
 
-And then execute:
-
-    $ bundle
+And then execute: `$ bundle`
 
 Or install it yourself as:
 
     $ gem install ez-rsponsive-table
+    
+#### 2. Add require **ezRtable** into your application.js
+```javascript
+//= require jquery
+//= require jquery.turbolinks
+//= require jquery_ujs
+...
+//= require ezRtable
+//= require turbolinks
+```
 
+#### 3. Add import **ezRtable** into your application.scss
+```scss
+@import "ezRtable";
+```
+    
 ## Usage
+ 1. Set `table-ezr` in your table class.
+ 2. Set `th-ezr` in your **th** class which you wanna responsive
+ 3. Set `td-ezr` in your **td** class which you wanna responsive
 
-TODO: Write usage instructions here
+## Demo
+![Desktop](http://i.imgur.com/yVrxP9R.png?1)
+![Mobile](http://i.imgur.com/8uBWwvV.png?1)
+                           
+## Example
+Check this [jsfiddle](https://jsfiddle.net/GeorgioWan/far3Lgss/), it's a simple use.
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ez-rsponsive-table. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
-
+## Reference
+Source in [Dudley Store's Opencode](http://codepen.io/dudleystorey/pen/Geprd)
 
 ## License
 
