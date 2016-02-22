@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Easy way to responsive your table.}
   spec.description   = %q{If you need a EASY way to Responsive your table, you can give ezRtable a shot}
-  spec.homepage      = "https://github.com/GeorgioWan/ezResponsiveTable"
+  spec.homepage      = "https://github.com/GeorgioWan/ezResponsiveTable-Rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
